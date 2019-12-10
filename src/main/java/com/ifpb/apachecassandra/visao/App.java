@@ -1,13 +1,12 @@
 package com.ifpb.apachecassandra.visao;
 
-import com.ifpb.apachecassandra.dao.ProdutoDao;
-import com.ifpb.apachecassandra.modelo.Produto;
+import com.ifpb.apachecassandra.dao.ProdutoDaoStatements;
 
 public class App {
 
     public static void main(String[] args) {
 
-        ProdutoDao produtoDao = new ProdutoDao();
+        ProdutoDaoStatements produtoDao = new ProdutoDaoStatements();
 
 //        System.out.println(produtoDao
 //            .salvar(new Produto(1,"Arroz Parbolizado",

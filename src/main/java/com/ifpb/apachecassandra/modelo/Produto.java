@@ -1,7 +1,12 @@
 package com.ifpb.apachecassandra.modelo;
 
+import com.datastax.oss.driver.api.mapper.annotations.Entity;
+import com.datastax.oss.driver.api.mapper.annotations.PartitionKey;
+
+@Entity(defaultKeyspace = "aula")
 public class Produto {
 
+    @PartitionKey
     private int codigo;
     private String descricao;
     private float preco;

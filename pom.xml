@@ -28,6 +28,18 @@
             <version>4.3.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.datastax.oss</groupId>
+            <artifactId>java-driver-mapper-processor</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.datastax.oss</groupId>
+            <artifactId>java-driver-mapper-runtime</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+
     </dependencies>
 
 
